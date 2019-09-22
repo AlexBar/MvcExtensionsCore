@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedFiles", "SharedFiles"
 		src\SharedFiles\CodeAnalysisDictionary.xml = src\SharedFiles\CodeAnalysisDictionary.xml
 		src\SharedFiles\CommonAssemblyInfo.cs = src\SharedFiles\CommonAssemblyInfo.cs
 		src\SharedFiles\MvcExtensions.snk = src\SharedFiles\MvcExtensions.snk
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcExtensionsCore", "src\MvcExtensionsCore\MvcExtensionsCore.csproj", "{30C4E9A3-8D35-4869-8179-008CF09C8D36}"
@@ -26,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcExtensionsCore.Localizat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{4FEB156D-EEC7-46DF-95C3-F0ABD460CE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtensionsCore.Sample1", "Samples\MvcExtensionsCore.Sample1\MvcExtensionsCore.Sample1.csproj", "{3D4C1949-0268-4FF4-993E-814311A4D036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcExtensionsCore.Sample1", "Samples\MvcExtensionsCore.Sample1\MvcExtensionsCore.Sample1.csproj", "{3D4C1949-0268-4FF4-993E-814311A4D036}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
