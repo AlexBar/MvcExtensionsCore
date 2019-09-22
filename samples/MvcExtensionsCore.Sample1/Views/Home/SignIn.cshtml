@@ -1,0 +1,14 @@
+﻿@model SignInModel
+@{
+    ViewData["Title"] = "SignIn Test Page";
+}
+
+<form asp-controller="Home" asp-action="SignIn" method="post" class="col-5">
+    @Html.EditorForModel()
+    <button type="submit" class="btn btn-warning">&nbsp;&nbsp;&nbsp;&nbsp;Log In&nbsp;&nbsp;&nbsp;&nbsp;</button>
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
